@@ -1,0 +1,101 @@
+header {
+    background-color: grey;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+}
+
+a{
+    color:white;
+    
+}
+
+li{
+    display: inline-block;
+    padding: 12px;
+    text-align: center;
+    border:10px black;
+    background-color: tan;
+    height: 22px;
+    width: 100px;
+
+}
+
+li:hover{
+    background-color:beige
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+footer{
+    background-color: grey;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding: 5px;
+}
+
+table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 2px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+th{
+    background-color: grey;
+    color: antiquewhite;
+}
+
+button:active{
+background-color: rgb(135, 139, 132);
+color: rgb(236, 236, 251);
+border-radius: 8px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 5px;
+}
+   
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px grey;
+    }
+
+    textarea{
+    height: 200px;
+    background-color: rgb(181, 181, 181);
+    padding: 5px 4px;
+    }
+
+form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
